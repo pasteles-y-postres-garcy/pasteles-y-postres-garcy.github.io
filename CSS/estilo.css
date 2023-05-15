@@ -1,0 +1,372 @@
+body{
+	background-image:url("../imagenes/fondo.jpg");
+	font-family:"Book Antiqua";
+	color:#212F3D;
+	font-size:40px;
+    }
+	p{
+	    text-align:center;
+		 color:black;
+		 font-size:20px;
+	}
+	 hr{
+		 border:5pxs solid #8E44AD;
+		 border-radius:5px;
+	}
+	table,tr,td{
+		/*Groser de la linea en pixeles, tipo de linea*/
+		border:3px solid;
+		border-color:#5B2C6F;
+		/*color de relleno de la tabla*/
+		background-color:#D6EAF8;
+	}
+	th{
+		background-color:#17202A;
+	}
+	ul{
+		font-family: "Comic Sans MS";
+		list-style-type:circle;
+		list-style-position:inside;
+	}
+	ol{
+		font-family: "Comic Sans MS";
+		list-style-type:upper-roman;
+		list-style-position:inside;
+	}
+	.encabezado{
+		padding-top:12px;
+		font-size:75px;
+		color:#9B59B6;
+		font-family:fuente;
+		text-align:center;
+		font-weight: bold;
+	}
+	.titulo{
+		padding-top:30px;
+		font-family:fuente2;
+		font-size:35px;
+		color:#9B59B6;
+		text-align:center;
+		font-weight: bold;
+	}
+	.subtitulo{
+		padding-top:20px;
+		font-family:fuente2;
+		font-size:40px;
+		color:#9B59B6;
+		text-align:center;
+		font-weight: bold;
+	}
+	/*Parte de la pagina Nosotros*/
+	.texto{
+		font-family:"Comic Sans MS";
+		font-size:18px;
+		color:#2E4053;
+		text-align:center;
+		font-weight: bold;
+	}
+	.pie{
+		margin-top: 5px;
+		text-align:center;
+		font-size:18px;
+		color:#5B2C6F;
+		font-family:fuente;
+		font-weight:bold;
+	}
+	
+	.tablas{
+		font-family:"Comic Sans MS";
+		font-size:15px;
+		color:#17202A;
+	}
+	.marquee{
+		height:400px;
+		width:600;
+	}
+	.hipervinculo{
+		height:150px;
+		width:150px;
+		border-radius:10%;
+	}
+	.hipervinculo:hover{
+		box-shadow: 0 0 20px blue;
+	}
+	.imagentabla{
+		width:180px;
+		height:200px;
+	}
+	.otrasimagenes{		
+		height:220px;
+		width:220px;
+		border-radius:10px;
+		border:3px solid;
+		border-color:white;
+	}
+	div#top{
+		height: 100px;
+		width:100%;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+		
+	} 	
+	/*div de index*/
+	div#principal{
+		margin:auto;
+		margin-top:20px;
+		height:400px;
+		width:80%;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+	}	
+	/*div para la imagen de nosotros*/
+	div#principal2{
+		padding-top:10px;
+		margin:auto;
+		margin-top:20px;
+		height:235px;
+		width:23%;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+	}
+	/*div para la historia, mision y vision de nosotros
+	y los 9 productos*/
+	div#principal3{
+		padding-right:15px;
+		padding-left:15px;
+		margin:auto;
+		margin-top:15px;
+		height:520px;
+		width:80%;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+	}	
+	div#principal4{
+		margin:auto;
+		margin-top:15px;
+		height:500px;
+		width:700px;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+	}
+	/*div de ubicacion*/
+	div#principal5{
+		margin:auto;
+		margin-top:15px;
+		height:600px;
+		width:80%;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+	}	
+	/*div de cada producto*/
+	div#principal6{
+		padding-top:15px;
+		margin:auto;
+		height:800px;
+		width:50%;
+		background-image:radial-gradient(#85C1E9, #D2B4DE);
+	}	
+	div#foot{
+		padding-top:10px;
+		margin:auto;
+		margin-top:10px;
+		width:80%;
+	    height:85px;
+		background-color:#D7BDE2;
+	}	
+	div#botones{
+		padding-top:15px;
+		width:100%;
+	    height:170px;
+		background-image:radial-gradient(#85C1E9, #D2B4DE)
+	}
+	/*Para pagina "productos"*/
+	.caja{
+	    height:200px;
+		width:180px;
+		background:#eee;
+		border: 1px solid #eee;
+		margin:5px;
+		color: black;
+		text-align:center;
+		display:inline-block;
+	}
+	.caja:hover{
+		box-shadow: 0 0 15px blue;
+		transform:scale(1.3);
+	}
+	.caja-texto{
+		padding-top:5px;
+		padding-bottom:5px;
+		font-size:20px;
+		color:blue;
+		font-weight:bold;
+		font-family:fuente4;
+	}
+	.texto-adicional{
+		padding-top:5px;
+		font-size:18px;
+	}
+	/*Para las paginas de cada productode productos
+	Hay que ver que los productos 1,2,3,4,5,6,7,8 y 9 tengan las
+	mismas medidas de width en carrousel y height en conteCarrousel*/
+	.carrousel{
+		width: 250;
+		margin:auto;
+		box-sizing:border-box;
+	}
+    .conteCarrousel{
+		width:100%;
+		height:300px;
+		overflow:hidden;
+		box-sizing: border-box;
+	}
+	.itemCarrousel{
+		position:relative;
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+	}
+	.itemCarrouselTarjeta{
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+	}
+	/*Es para las flechas*/
+	.itemCarrouselArrows{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.itemCarrouselArrows > i:hover{
+		cursor: pointer;
+	}
+	/*Para las imagenes pequeñas de cada producto*/
+	.conteCarrouselController{
+		padding-top:15px;
+		width:100%;
+		display: inline-block;
+		justify-content: space-evelyn;
+	}
+	.conteCarrouselController > a{
+		text-decoration: none;
+		font-size: 32px;
+		color: gray;
+	}
+	.itemCarrouselArrows > a > i{
+		color: white;
+	}
+	/**/
+	/*Esta clase nos sirve para usar de clase en Span 
+	y crear la funcion que tiene el hr*/
+	.linea{
+		/*Margin es para agregar espacio Externo entre elementos*/
+		margin-top:5px;
+		width: 100%;
+		display:block;
+		border:5px solid #D2B4DE;
+		border-radius:5px;
+	}
+	/*color de fondo de cada item*/
+	#itemcarrousel-1{
+		background-color: red;
+	}
+
+	#itemcarrousel-2{
+		background-color:blue;
+	}
+
+	#itemcarrousel-3{
+		background-color: green;
+	}
+	#itemcarrousel-4{
+		background-color: purple;
+	}
+	
+	/*Esta en cada pagina de productos*/
+/*Padding es para agregar espacio Interno dentro del elemento*/
+	
+	.menu{
+	/*height es altura y width anchura*/
+		height:300px;
+		width:500px;
+		background-color: #D2BCF3;
+		border:1px solid #eee;
+		margin:5px;
+		display:inline-block;
+		text-align:left;
+		font-family:"Comic Sans MS";
+		font-size:25px;
+	}
+	/*Efecto sombra del menu*/
+	.menu:hover{
+		box-shadow:0 0 10px blue;
+	}
+	
+	/*Encabezados*/
+	@font-face{
+		Font-family: fuente;
+		src: url(../fuentes/ParchomScript.ttf);
+	}
+	/*Titulos*/
+	@font-face{
+		Font-family: fuente2;
+		src: url(../fuentes/AYUMA.ttf);
+	}
+	/*Subtitulos*/
+	@font-face{
+		Font-family: fuente3;
+		src: url(../fuentes/AbbassyScript.ttf);
+	}
+	/*Pie de pagina*/
+	@font-face{
+		Font-family: fuente4;
+		src: url(../fuentes/AQuietSleep.ttf);
+	}
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
